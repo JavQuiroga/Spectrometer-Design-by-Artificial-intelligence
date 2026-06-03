@@ -1,0 +1,2643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\javie\Documents\Spectrometer_Journal\Merge_stage_PCB\Merge_stage_PCB.kicad_sch</source>
+    <date>2026-04-29T12:43:08</date>
+    <tool>Eeschema 10.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Merge_stage_PCB.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PHOTODIODE.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/ADS_MUX_MODULE/" tstamps="/ea1e2f5e-2177-4a59-bce6-824d3cac5ea9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ADS_MUX.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/DIGITAL_AMP/" tstamps="/f50c0c11-75cf-4f2a-8c26-7fdc30682fb7/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DIGITAL_AMP.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/ANALOG_AMP/" tstamps="/29a0f05b-dd7c-4501-a84f-080f7bd25a6c/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ANALOG_AMP.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J7">
+      <value>Conn_01x04_Pin</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x04_Pin" description="Generic connector, single row, 01x04, script generated"/>
+      <property name="Sheetname" value="Merge_stage_PCB"/>
+      <property name="Sheetfile" value="Merge_stage_PCB.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ed85f4b-eb18-41e4-acbf-23290beb6a80</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x12_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x12, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x12, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x12_Pin" description="Generic connector, single row, 01x12, script generated"/>
+      <property name="Sheetname" value="Merge_stage_PCB"/>
+      <property name="Sheetfile" value="Merge_stage_PCB.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c78b4fd-6ba4-4108-bf3b-39152cefe910</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x05_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x05, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x05, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
+      <property name="Sheetname" value="Merge_stage_PCB"/>
+      <property name="Sheetfile" value="Merge_stage_PCB.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0861c1af-8792-48e0-b472-4034890228c0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x05_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x05, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x05, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x05_Pin" description="Generic connector, single row, 01x05, script generated"/>
+      <property name="Sheetname" value="Merge_stage_PCB"/>
+      <property name="Sheetfile" value="Merge_stage_PCB.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05eb43d6-d786-4c7d-8c87-633b93c6ba90</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J12">
+      <value>Conn_01x03_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value="Merge_stage_PCB"/>
+      <property name="Sheetfile" value="Merge_stage_PCB.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df3f4339-c588-45a0-9d82-d369638a47e7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1">
+      <value>C0603C104K5RACTU</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MF">KEMET</field>
+        <field name="Description_1">0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="Package">603-2 KEMET</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/C0603C104K5RACTU/Kemet/view-part/?ref=eda</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/C0603C104K5RACTU/Kemet/view-part/?ref=snap</field>
+        <field name="MP">C0603C104K5RACTU</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="C0603C104K5RACTU" part="C0603C104K5RACTU" description=""/>
+      <property name="MF" value="KEMET"/>
+      <property name="Description_1" value="0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="Package" value="603-2 KEMET"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/C0603C104K5RACTU/Kemet/view-part/?ref=eda"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/C0603C104K5RACTU/Kemet/view-part/?ref=snap"/>
+      <property name="MP" value="C0603C104K5RACTU"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="KEMET"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>ab0b472a-75a2-4c8c-849f-78efd6ebe4eb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>C0603C104K5RACTU</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="MF">KEMET</field>
+        <field name="Description_1">0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="Package">603-2 KEMET</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/C0603C104K5RACTU/Kemet/view-part/?ref=eda</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/C0603C104K5RACTU/Kemet/view-part/?ref=snap</field>
+        <field name="MP">C0603C104K5RACTU</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">KEMET</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="C0603C104K5RACTU" part="C0603C104K5RACTU" description=""/>
+      <property name="MF" value="KEMET"/>
+      <property name="Description_1" value="0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"/>
+      <property name="Package" value="603-2 KEMET"/>
+      <property name="Price" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/C0603C104K5RACTU/Kemet/view-part/?ref=eda"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/C0603C104K5RACTU/Kemet/view-part/?ref=snap"/>
+      <property name="MP" value="C0603C104K5RACTU"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="MANUFACTURER" value="KEMET"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>24255a6a-7119-41c9-8015-2893ed29a43b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>12102C104KAT2A</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>12102C104KAT2A</datasheet>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet">12102C104KAT2A</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="KGM32HR72D104KU" part="12102C104KAT2A" description=""/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <property name="ki_keywords" value="12102C104KAT2A"/>
+      <property name="ki_fp_filters" value="1210_AVX 1210_AVX-M 1210_AVX-L"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>a1b38f98-12ae-4f6a-b68d-58b33e5a107c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>CC0402BRNPO9BN4R7</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MF">Yageo</field>
+        <field name="Description_1">4.7 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)</field>
+        <field name="Package">0402 Yageo</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/CC0402BRNPO9BN4R7/Yageo/view-part/?ref=snap</field>
+        <field name="MP">CC0402BRNPO9BN4R7</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/CC0402BRNPO9BN4R7/Yageo/view-part/?ref=eda</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CC0402BRNPO9BN4R7" part="CC0402BRNPO9BN4R7" description=""/>
+      <property name="MF" value="Yageo"/>
+      <property name="Description_1" value="4.7 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
+      <property name="Package" value="0402 Yageo"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/CC0402BRNPO9BN4R7/Yageo/view-part/?ref=snap"/>
+      <property name="MP" value="CC0402BRNPO9BN4R7"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/CC0402BRNPO9BN4R7/Yageo/view-part/?ref=eda"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>ec857fb5-81f8-468e-a8be-dce0573fc420</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>12102C104KAT2A</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>12102C104KAT2A</datasheet>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet">12102C104KAT2A</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="KGM32HR72D104KU" part="12102C104KAT2A" description=""/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <property name="ki_keywords" value="12102C104KAT2A"/>
+      <property name="ki_fp_filters" value="1210_AVX 1210_AVX-M 1210_AVX-L"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>b14ebb1c-7d4f-4c34-ac7c-d05fe8f9d39d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>CC0402BRNPO9BN4R7</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MF">Yageo</field>
+        <field name="Description_1">4.7 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)</field>
+        <field name="Package">0402 Yageo</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/CC0402BRNPO9BN4R7/Yageo/view-part/?ref=snap</field>
+        <field name="MP">CC0402BRNPO9BN4R7</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/CC0402BRNPO9BN4R7/Yageo/view-part/?ref=eda</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CC0402BRNPO9BN4R7" part="CC0402BRNPO9BN4R7" description=""/>
+      <property name="MF" value="Yageo"/>
+      <property name="Description_1" value="4.7 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
+      <property name="Package" value="0402 Yageo"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/CC0402BRNPO9BN4R7/Yageo/view-part/?ref=snap"/>
+      <property name="MP" value="CC0402BRNPO9BN4R7"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/CC0402BRNPO9BN4R7/Yageo/view-part/?ref=eda"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>0868569b-dfc1-4e8a-95e7-5ee429b81717</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>12102C104KAT2A</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>12102C104KAT2A</datasheet>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet">12102C104KAT2A</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="KGM32HR72D104KU" part="12102C104KAT2A" description=""/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <property name="ki_keywords" value="12102C104KAT2A"/>
+      <property name="ki_fp_filters" value="1210_AVX 1210_AVX-M 1210_AVX-L"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>cb6eb5ef-01f7-4b83-a9d3-76b44150d73d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>CC0402BRNPO9BN4R7</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="MF">Yageo</field>
+        <field name="Description_1">4.7 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)</field>
+        <field name="Package">0402 Yageo</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/CC0402BRNPO9BN4R7/Yageo/view-part/?ref=snap</field>
+        <field name="MP">CC0402BRNPO9BN4R7</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/CC0402BRNPO9BN4R7/Yageo/view-part/?ref=eda</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CC0402BRNPO9BN4R7" part="CC0402BRNPO9BN4R7" description=""/>
+      <property name="MF" value="Yageo"/>
+      <property name="Description_1" value="4.7 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
+      <property name="Package" value="0402 Yageo"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/CC0402BRNPO9BN4R7/Yageo/view-part/?ref=snap"/>
+      <property name="MP" value="CC0402BRNPO9BN4R7"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/CC0402BRNPO9BN4R7/Yageo/view-part/?ref=eda"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>db0ef659-ddb7-435f-8256-4c4fbcf71af2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>12102C104KAT2A</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>12102C104KAT2A</datasheet>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet">12102C104KAT2A</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="KGM32HR72D104KU" part="12102C104KAT2A" description=""/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <property name="ki_keywords" value="12102C104KAT2A"/>
+      <property name="ki_fp_filters" value="1210_AVX 1210_AVX-M 1210_AVX-L"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>865048ce-3ae6-453e-a0a5-5fe57d7cf1e1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C15">
+      <value>CC0402BRNPO9BN4R7</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <fields>
+        <field name="MF">Yageo</field>
+        <field name="Description_1">4.7 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)</field>
+        <field name="Package">0402 Yageo</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/CC0402BRNPO9BN4R7/Yageo/view-part/?ref=snap</field>
+        <field name="MP">CC0402BRNPO9BN4R7</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/CC0402BRNPO9BN4R7/Yageo/view-part/?ref=eda</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="CC0402BRNPO9BN4R7" part="CC0402BRNPO9BN4R7" description=""/>
+      <property name="MF" value="Yageo"/>
+      <property name="Description_1" value="4.7 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"/>
+      <property name="Package" value="0402 Yageo"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/CC0402BRNPO9BN4R7/Yageo/view-part/?ref=snap"/>
+      <property name="MP" value="CC0402BRNPO9BN4R7"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/CC0402BRNPO9BN4R7/Yageo/view-part/?ref=eda"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>987207fb-3b18-43dc-8255-c10b08e6b0a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>VEMD4110X01</value>
+      <footprint>footprints:DIO_VEMD4110X01</footprint>
+      <fields>
+        <field name="MF">Vishay</field>
+        <field name="Description_1">High speed and high sensitive PIN photodiode.  Miniature surface mount device (SMD) with a 0.42 mm2 sensitive area and daylight blocking filter.</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/VEMD4110X01/Vishay/view-part/?ref=snap</field>
+        <field name="MP">VEMD4110X01</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4653216&amp;manufacturer=Vishay&amp;part_name=VEMD4110X01&amp;search_term=None</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/VEMD4110X01/Vishay/view-part/?ref=eda</field>
+        <field name="Footprint">footprints:DIO_VEMD4110X01</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="VEMD4110X01" part="VEMD4110X01" description=""/>
+      <property name="MF" value="Vishay"/>
+      <property name="Description_1" value="High speed and high sensitive PIN photodiode.  Miniature surface mount device (SMD) with a 0.42 mm2 sensitive area and daylight blocking filter."/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/VEMD4110X01/Vishay/view-part/?ref=snap"/>
+      <property name="MP" value="VEMD4110X01"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4653216&amp;manufacturer=Vishay&amp;part_name=VEMD4110X01&amp;search_term=None"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/VEMD4110X01/Vishay/view-part/?ref=eda"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>52b88ce2-6abd-4dd8-aa8b-8dc514057625</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="A"/>
+            <pin num="C"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>VEMD4110X01</value>
+      <footprint>footprints:DIO_VEMD4110X01</footprint>
+      <fields>
+        <field name="MF">Vishay</field>
+        <field name="Description_1">High speed and high sensitive PIN photodiode.  Miniature surface mount device (SMD) with a 0.42 mm2 sensitive area and daylight blocking filter.</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/VEMD4110X01/Vishay/view-part/?ref=snap</field>
+        <field name="MP">VEMD4110X01</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4653216&amp;manufacturer=Vishay&amp;part_name=VEMD4110X01&amp;search_term=None</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/VEMD4110X01/Vishay/view-part/?ref=eda</field>
+        <field name="Footprint">footprints:DIO_VEMD4110X01</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="VEMD4110X01" part="VEMD4110X01" description=""/>
+      <property name="MF" value="Vishay"/>
+      <property name="Description_1" value="High speed and high sensitive PIN photodiode.  Miniature surface mount device (SMD) with a 0.42 mm2 sensitive area and daylight blocking filter."/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/VEMD4110X01/Vishay/view-part/?ref=snap"/>
+      <property name="MP" value="VEMD4110X01"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4653216&amp;manufacturer=Vishay&amp;part_name=VEMD4110X01&amp;search_term=None"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/VEMD4110X01/Vishay/view-part/?ref=eda"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>3bc2d888-0118-4644-bf83-185af51c5100</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="A"/>
+            <pin num="C"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>VEMD4110X01</value>
+      <footprint>footprints:DIO_VEMD4110X01</footprint>
+      <fields>
+        <field name="MF">Vishay</field>
+        <field name="Description_1">High speed and high sensitive PIN photodiode.  Miniature surface mount device (SMD) with a 0.42 mm2 sensitive area and daylight blocking filter.</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/VEMD4110X01/Vishay/view-part/?ref=snap</field>
+        <field name="MP">VEMD4110X01</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4653216&amp;manufacturer=Vishay&amp;part_name=VEMD4110X01&amp;search_term=None</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/VEMD4110X01/Vishay/view-part/?ref=eda</field>
+        <field name="Footprint">footprints:DIO_VEMD4110X01</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="VEMD4110X01" part="VEMD4110X01" description=""/>
+      <property name="MF" value="Vishay"/>
+      <property name="Description_1" value="High speed and high sensitive PIN photodiode.  Miniature surface mount device (SMD) with a 0.42 mm2 sensitive area and daylight blocking filter."/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/VEMD4110X01/Vishay/view-part/?ref=snap"/>
+      <property name="MP" value="VEMD4110X01"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4653216&amp;manufacturer=Vishay&amp;part_name=VEMD4110X01&amp;search_term=None"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/VEMD4110X01/Vishay/view-part/?ref=eda"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>1d0ddb83-8324-42a8-b687-6635f39f98c6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="A"/>
+            <pin num="C"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D4">
+      <value>VEMD4110X01</value>
+      <footprint>footprints:DIO_VEMD4110X01</footprint>
+      <fields>
+        <field name="MF">Vishay</field>
+        <field name="Description_1">High speed and high sensitive PIN photodiode.  Miniature surface mount device (SMD) with a 0.42 mm2 sensitive area and daylight blocking filter.</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/VEMD4110X01/Vishay/view-part/?ref=snap</field>
+        <field name="MP">VEMD4110X01</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4653216&amp;manufacturer=Vishay&amp;part_name=VEMD4110X01&amp;search_term=None</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/VEMD4110X01/Vishay/view-part/?ref=eda</field>
+        <field name="Footprint">footprints:DIO_VEMD4110X01</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="VEMD4110X01" part="VEMD4110X01" description=""/>
+      <property name="MF" value="Vishay"/>
+      <property name="Description_1" value="High speed and high sensitive PIN photodiode.  Miniature surface mount device (SMD) with a 0.42 mm2 sensitive area and daylight blocking filter."/>
+      <property name="Package" value="None"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/VEMD4110X01/Vishay/view-part/?ref=snap"/>
+      <property name="MP" value="VEMD4110X01"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4653216&amp;manufacturer=Vishay&amp;part_name=VEMD4110X01&amp;search_term=None"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/VEMD4110X01/Vishay/view-part/?ref=eda"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>82618bfc-b90a-43e8-a632-8eeee90d0850</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="A"/>
+            <pin num="C"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>37d56080-f9e2-48ab-a172-02070a14fc4c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>4da3ae09-93f7-42db-88f5-6d7eeaef85ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>7e40e3a7-fe11-46cc-851c-8ff0a1d1c480</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x02_Pin</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Pin" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>52567271-6ff4-4608-bab4-e78203443ea9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>RMCF1210JT10K0</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <fields>
+        <field name="MF">Stackpole Electronics Inc</field>
+        <field name="Description_1">10 kOhms ±5% 0.333W, 1/3W Chip Resistor 1210 (3225 Metric) Automotive AEC-Q200 Thick Film</field>
+        <field name="Package">3225 Stackpole</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RMCF1210JT10K0/Stackpole+Electronics/view-part/?ref=snap</field>
+        <field name="MP">RMCF1210JT10K0</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RMCF1210JT10K0/Stackpole+Electronics/view-part/?ref=eda</field>
+        <field name="Footprint">Resistor_SMD:R_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RMCF1210JT10K0" part="RMCF1210JT10K0" description=""/>
+      <property name="MF" value="Stackpole Electronics Inc"/>
+      <property name="Description_1" value="10 kOhms ±5% 0.333W, 1/3W Chip Resistor 1210 (3225 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Package" value="3225 Stackpole"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/RMCF1210JT10K0/Stackpole+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="RMCF1210JT10K0"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/RMCF1210JT10K0/Stackpole+Electronics/view-part/?ref=eda"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>e87ff26f-9222-47b5-877a-53f6a157c228</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>RMCF1210JT10K0</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <fields>
+        <field name="MF">Stackpole Electronics Inc</field>
+        <field name="Description_1">10 kOhms ±5% 0.333W, 1/3W Chip Resistor 1210 (3225 Metric) Automotive AEC-Q200 Thick Film</field>
+        <field name="Package">3225 Stackpole</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RMCF1210JT10K0/Stackpole+Electronics/view-part/?ref=snap</field>
+        <field name="MP">RMCF1210JT10K0</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RMCF1210JT10K0/Stackpole+Electronics/view-part/?ref=eda</field>
+        <field name="Footprint">Resistor_SMD:R_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RMCF1210JT10K0" part="RMCF1210JT10K0" description=""/>
+      <property name="MF" value="Stackpole Electronics Inc"/>
+      <property name="Description_1" value="10 kOhms ±5% 0.333W, 1/3W Chip Resistor 1210 (3225 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Package" value="3225 Stackpole"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/RMCF1210JT10K0/Stackpole+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="RMCF1210JT10K0"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/RMCF1210JT10K0/Stackpole+Electronics/view-part/?ref=eda"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>9154ce2c-14f9-4dc6-801b-7aa5c79530a5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>RMCF1210JT10K0</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <fields>
+        <field name="MF">Stackpole Electronics Inc</field>
+        <field name="Description_1">10 kOhms ±5% 0.333W, 1/3W Chip Resistor 1210 (3225 Metric) Automotive AEC-Q200 Thick Film</field>
+        <field name="Package">3225 Stackpole</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RMCF1210JT10K0/Stackpole+Electronics/view-part/?ref=snap</field>
+        <field name="MP">RMCF1210JT10K0</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RMCF1210JT10K0/Stackpole+Electronics/view-part/?ref=eda</field>
+        <field name="Footprint">Resistor_SMD:R_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RMCF1210JT10K0" part="RMCF1210JT10K0" description=""/>
+      <property name="MF" value="Stackpole Electronics Inc"/>
+      <property name="Description_1" value="10 kOhms ±5% 0.333W, 1/3W Chip Resistor 1210 (3225 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Package" value="3225 Stackpole"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/RMCF1210JT10K0/Stackpole+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="RMCF1210JT10K0"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/RMCF1210JT10K0/Stackpole+Electronics/view-part/?ref=eda"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>9190fac1-083d-4dbf-b32c-7a1ecac1eb11</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>RMCF1210JT10K0</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <fields>
+        <field name="MF">Stackpole Electronics Inc</field>
+        <field name="Description_1">10 kOhms ±5% 0.333W, 1/3W Chip Resistor 1210 (3225 Metric) Automotive AEC-Q200 Thick Film</field>
+        <field name="Package">3225 Stackpole</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RMCF1210JT10K0/Stackpole+Electronics/view-part/?ref=snap</field>
+        <field name="MP">RMCF1210JT10K0</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RMCF1210JT10K0/Stackpole+Electronics/view-part/?ref=eda</field>
+        <field name="Footprint">Resistor_SMD:R_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="RMCF1210JT10K0" part="RMCF1210JT10K0" description=""/>
+      <property name="MF" value="Stackpole Electronics Inc"/>
+      <property name="Description_1" value="10 kOhms ±5% 0.333W, 1/3W Chip Resistor 1210 (3225 Metric) Automotive AEC-Q200 Thick Film"/>
+      <property name="Package" value="3225 Stackpole"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/RMCF1210JT10K0/Stackpole+Electronics/view-part/?ref=snap"/>
+      <property name="MP" value="RMCF1210JT10K0"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/RMCF1210JT10K0/Stackpole+Electronics/view-part/?ref=eda"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>475221f1-93d9-4889-a5e9-c1b46d2f9a8e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>OPA4191ID</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/gpn/opa4191</datasheet>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/opa4191</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="2026-04-08_15-41-58" part="OPA4191ID" description=""/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <property name="ki_keywords" value="OPA4191ID"/>
+      <property name="ki_fp_filters" value="D0014A-IPC_A D0014A-IPC_B D0014A-IPC_C D0014A-MFG"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>9b1ef42a-5b1a-4622-a550-2b232cca93fd 41e799ad-64a1-4371-a21b-8798f4f213ab 3eacb627-2eaa-4143-aeee-9c10a6c4a29c 1875cf25-3c83-4635-a76d-91a3db010815</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="11"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+        <unit name="B">
+          <pins>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+        <unit name="C">
+          <pins>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+        <unit name="D">
+          <pins>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="VR1">
+      <value>3362P-1-104LF</value>
+      <footprint>footprints:TRIM_3362P-1-104LF</footprint>
+      <fields>
+        <field name="MF">Bourns</field>
+        <field name="Description_1">Trimmer, Cermet, Rest 100 Kilohms, PCB, 1 Turns, Pwr-Rtg 0.5 W, Tol 10% | Bourns 3362P-1-104LF</field>
+        <field name="Package">3362P-1 Bourns Inc.</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="PARTREV">08/26/10</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=snap</field>
+        <field name="MP">3362P-1-104LF</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=eda</field>
+        <field name="Footprint">footprints:TRIM_3362P-1-104LF</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="3362P-1-104LF" part="3362P-1-104LF" description=""/>
+      <property name="MF" value="Bourns"/>
+      <property name="Description_1" value="Trimmer, Cermet, Rest 100 Kilohms, PCB, 1 Turns, Pwr-Rtg 0.5 W, Tol 10% | Bourns 3362P-1-104LF"/>
+      <property name="Package" value="3362P-1 Bourns Inc."/>
+      <property name="Price" value="None"/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="PARTREV" value="08/26/10"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=snap"/>
+      <property name="MP" value="3362P-1-104LF"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=eda"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>c43df0ce-8ce4-4a1a-b22e-6a3fd5d1dbc8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="VR2">
+      <value>3362P-1-104LF</value>
+      <footprint>footprints:TRIM_3362P-1-104LF</footprint>
+      <fields>
+        <field name="MF">Bourns</field>
+        <field name="Description_1">Trimmer, Cermet, Rest 100 Kilohms, PCB, 1 Turns, Pwr-Rtg 0.5 W, Tol 10% | Bourns 3362P-1-104LF</field>
+        <field name="Package">3362P-1 Bourns Inc.</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="PARTREV">08/26/10</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=snap</field>
+        <field name="MP">3362P-1-104LF</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=eda</field>
+        <field name="Footprint">footprints:TRIM_3362P-1-104LF</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="3362P-1-104LF" part="3362P-1-104LF" description=""/>
+      <property name="MF" value="Bourns"/>
+      <property name="Description_1" value="Trimmer, Cermet, Rest 100 Kilohms, PCB, 1 Turns, Pwr-Rtg 0.5 W, Tol 10% | Bourns 3362P-1-104LF"/>
+      <property name="Package" value="3362P-1 Bourns Inc."/>
+      <property name="Price" value="None"/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="PARTREV" value="08/26/10"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=snap"/>
+      <property name="MP" value="3362P-1-104LF"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=eda"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>9f422459-924f-4251-9611-24f313403845</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="VR3">
+      <value>3362P-1-104LF</value>
+      <footprint>footprints:TRIM_3362P-1-104LF</footprint>
+      <fields>
+        <field name="MF">Bourns</field>
+        <field name="Description_1">Trimmer, Cermet, Rest 100 Kilohms, PCB, 1 Turns, Pwr-Rtg 0.5 W, Tol 10% | Bourns 3362P-1-104LF</field>
+        <field name="Package">3362P-1 Bourns Inc.</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="PARTREV">08/26/10</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=snap</field>
+        <field name="MP">3362P-1-104LF</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=eda</field>
+        <field name="Footprint">footprints:TRIM_3362P-1-104LF</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="3362P-1-104LF" part="3362P-1-104LF" description=""/>
+      <property name="MF" value="Bourns"/>
+      <property name="Description_1" value="Trimmer, Cermet, Rest 100 Kilohms, PCB, 1 Turns, Pwr-Rtg 0.5 W, Tol 10% | Bourns 3362P-1-104LF"/>
+      <property name="Package" value="3362P-1 Bourns Inc."/>
+      <property name="Price" value="None"/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="PARTREV" value="08/26/10"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=snap"/>
+      <property name="MP" value="3362P-1-104LF"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=eda"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>e366234b-b243-4791-90c1-74e477963685</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="VR4">
+      <value>3362P-1-104LF</value>
+      <footprint>footprints:TRIM_3362P-1-104LF</footprint>
+      <fields>
+        <field name="MF">Bourns</field>
+        <field name="Description_1">Trimmer, Cermet, Rest 100 Kilohms, PCB, 1 Turns, Pwr-Rtg 0.5 W, Tol 10% | Bourns 3362P-1-104LF</field>
+        <field name="Package">3362P-1 Bourns Inc.</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="PARTREV">08/26/10</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=snap</field>
+        <field name="MP">3362P-1-104LF</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=eda</field>
+        <field name="Footprint">footprints:TRIM_3362P-1-104LF</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="3362P-1-104LF" part="3362P-1-104LF" description=""/>
+      <property name="MF" value="Bourns"/>
+      <property name="Description_1" value="Trimmer, Cermet, Rest 100 Kilohms, PCB, 1 Turns, Pwr-Rtg 0.5 W, Tol 10% | Bourns 3362P-1-104LF"/>
+      <property name="Package" value="3362P-1 Bourns Inc."/>
+      <property name="Price" value="None"/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="PARTREV" value="08/26/10"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=snap"/>
+      <property name="MP" value="3362P-1-104LF"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=eda"/>
+      <property name="Sheetname" value="PHOTODIODE"/>
+      <property name="Sheetfile" value="PHOTODIODE.kicad_sch"/>
+      <sheetpath names="/PHOTODIODE/" tstamps="/0b7a2869-a68f-4314-930e-b60ce14d992b/"/>
+      <tstamps>f195a7f8-f3cf-45be-bce1-1b039bdee4c0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ADS_MUX_MODULE"/>
+      <property name="Sheetfile" value="ADS_MUX.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ADS_MUX_MODULE/" tstamps="/ea1e2f5e-2177-4a59-bce6-824d3cac5ea9/"/>
+      <tstamps>cd109f5b-cd72-4f19-94ce-25073310501f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ADS_MUX_MODULE"/>
+      <property name="Sheetfile" value="ADS_MUX.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ADS_MUX_MODULE/" tstamps="/ea1e2f5e-2177-4a59-bce6-824d3cac5ea9/"/>
+      <tstamps>777101f9-9452-4025-860c-eff28a4d9cd8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <description>Unpolarized capacitor</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ADS_MUX_MODULE"/>
+      <property name="Sheetfile" value="ADS_MUX.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/ADS_MUX_MODULE/" tstamps="/ea1e2f5e-2177-4a59-bce6-824d3cac5ea9/"/>
+      <tstamps>9f7cf1dd-e4d7-4595-bcc3-bc579dfbae57</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x08</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ADS_MUX_MODULE"/>
+      <property name="Sheetfile" value="ADS_MUX.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/ADS_MUX_MODULE/" tstamps="/ea1e2f5e-2177-4a59-bce6-824d3cac5ea9/"/>
+      <tstamps>92f2721d-aa88-49e2-9919-2cb10cfd520c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_01x08</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ADS_MUX_MODULE"/>
+      <property name="Sheetfile" value="ADS_MUX.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/ADS_MUX_MODULE/" tstamps="/ea1e2f5e-2177-4a59-bce6-824d3cac5ea9/"/>
+      <tstamps>9af931bf-ad77-40ad-bf7f-91792c744f89</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J13">
+      <value>Conn_01x08</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ADS_MUX_MODULE"/>
+      <property name="Sheetfile" value="ADS_MUX.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/ADS_MUX_MODULE/" tstamps="/ea1e2f5e-2177-4a59-bce6-824d3cac5ea9/"/>
+      <tstamps>1e8e0e60-2bfe-4220-91e0-930fad360981</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>ADS7953</value>
+      <footprint>footprints:ADS7953</footprint>
+      <description>ADS7953 series 12 Bit 1M Samples per Second Analog to Digital Converter (ADC) Evaluation Board</description>
+      <fields>
+        <field name="MF">Texas Instruments</field>
+        <field name="Package">VQFN-32 Texas Instruments</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ADS7953/Texas+Instruments/view-part/?ref=snap</field>
+        <field name="MP">ADS7953</field>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/ADS7953/Texas+Instruments/view-part/?ref=eda</field>
+        <field name="Footprint">footprints:ADS7953</field>
+        <field name="Datasheet"/>
+        <field name="Description">ADS7953 series 12 Bit 1M Samples per Second Analog to Digital Converter (ADC) Evaluation Board</field>
+      </fields>
+      <libsource lib="ADS7953" part="ADS7953" description="ADS7953 series 12 Bit 1M Samples per Second Analog to Digital Converter (ADC) Evaluation Board"/>
+      <property name="MF" value="Texas Instruments"/>
+      <property name="Package" value="VQFN-32 Texas Instruments"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/ADS7953/Texas+Instruments/view-part/?ref=snap"/>
+      <property name="MP" value="ADS7953"/>
+      <property name="Availability" value="Not in stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/ADS7953/Texas+Instruments/view-part/?ref=eda"/>
+      <property name="Sheetname" value="ADS_MUX_MODULE"/>
+      <property name="Sheetfile" value="ADS_MUX.kicad_sch"/>
+      <sheetpath names="/ADS_MUX_MODULE/" tstamps="/ea1e2f5e-2177-4a59-bce6-824d3cac5ea9/"/>
+      <tstamps>8b3c7040-2e1c-4fc0-ac7d-2d4b961ba4a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="28"/>
+            <pin num="27"/>
+            <pin num="26"/>
+            <pin num="25"/>
+            <pin num="24"/>
+            <pin num="23"/>
+            <pin num="22"/>
+            <pin num="21"/>
+            <pin num="18"/>
+            <pin num="17"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="38"/>
+            <pin num="37"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="33"/>
+            <pin num="34"/>
+            <pin num="36"/>
+            <pin num="5"/>
+            <pin num="29"/>
+            <pin num="35"/>
+            <pin num="6"/>
+            <pin num="10"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="30"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="DIGITAL_AMP"/>
+      <property name="Sheetfile" value="DIGITAL_AMP.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/DIGITAL_AMP/" tstamps="/f50c0c11-75cf-4f2a-8c26-7fdc30682fb7/"/>
+      <tstamps>3d5b0716-1e0e-4d4f-89dd-542238aa0762</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="DIGITAL_AMP"/>
+      <property name="Sheetfile" value="DIGITAL_AMP.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/DIGITAL_AMP/" tstamps="/f50c0c11-75cf-4f2a-8c26-7fdc30682fb7/"/>
+      <tstamps>b9e40be2-bebd-4547-afc5-4e461d0ea453</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RP1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="DIGITAL_AMP"/>
+      <property name="Sheetfile" value="DIGITAL_AMP.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/DIGITAL_AMP/" tstamps="/f50c0c11-75cf-4f2a-8c26-7fdc30682fb7/"/>
+      <tstamps>ff5d290c-5310-4211-8143-803a8d56d67c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RP2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="DIGITAL_AMP"/>
+      <property name="Sheetfile" value="DIGITAL_AMP.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/DIGITAL_AMP/" tstamps="/f50c0c11-75cf-4f2a-8c26-7fdc30682fb7/"/>
+      <tstamps>4f59684f-9239-4185-adcb-a0f27dfb0872</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>218-2LPSTRF</value>
+      <footprint>footprints:SW_218-2LPSTRF</footprint>
+      <fields>
+        <field name="MF">CTS Electrocomponents</field>
+        <field name="Description_1">Dip Switch SPST 2 Position Surface Mount Slide (Standard) Actuator 25mA 24VDC</field>
+        <field name="Package">None</field>
+        <field name="MPN">218-2LPSTRF</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer recommendation</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/218-2LPSTRF/CTS+Components/view-part/?ref=snap</field>
+        <field name="MP">218-2LPSTRF</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/218-2LPSTRF/CTS+Components/view-part/?ref=eda</field>
+        <field name="Footprint">footprints:SW_218-2LPSTRF</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="218-2LPSTRF" part="218-2LPSTRF" description=""/>
+      <property name="MF" value="CTS Electrocomponents"/>
+      <property name="Description_1" value="Dip Switch SPST 2 Position Surface Mount Slide (Standard) Actuator 25mA 24VDC"/>
+      <property name="Package" value="None"/>
+      <property name="MPN" value="218-2LPSTRF"/>
+      <property name="Price" value="None"/>
+      <property name="STANDARD" value="Manufacturer recommendation"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/218-2LPSTRF/CTS+Components/view-part/?ref=snap"/>
+      <property name="MP" value="218-2LPSTRF"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/218-2LPSTRF/CTS+Components/view-part/?ref=eda"/>
+      <property name="Sheetname" value="DIGITAL_AMP"/>
+      <property name="Sheetfile" value="DIGITAL_AMP.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/DIGITAL_AMP/" tstamps="/f50c0c11-75cf-4f2a-8c26-7fdc30682fb7/"/>
+      <tstamps>cdbee983-9450-4774-a4e3-268a6fa7fdd0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>PGA103U</value>
+      <footprint>footprints:SOIC127P599X175-8N</footprint>
+      <fields>
+        <field name="MF">Texas Instruments</field>
+        <field name="Description_1">Programmable Gain Amplifier</field>
+        <field name="Package">SOIC-8 Texas Instruments</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/PGA103U/Texas+Instruments/view-part/?ref=snap</field>
+        <field name="MP">PGA103U</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/PGA103U/Texas+Instruments/view-part/?ref=eda</field>
+        <field name="Footprint">footprints:SOIC127P599X175-8N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="PGA103U" part="PGA103U" description=""/>
+      <property name="MF" value="Texas Instruments"/>
+      <property name="Description_1" value="Programmable Gain Amplifier"/>
+      <property name="Package" value="SOIC-8 Texas Instruments"/>
+      <property name="Price" value="None"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/PGA103U/Texas+Instruments/view-part/?ref=snap"/>
+      <property name="MP" value="PGA103U"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/PGA103U/Texas+Instruments/view-part/?ref=eda"/>
+      <property name="Sheetname" value="DIGITAL_AMP"/>
+      <property name="Sheetfile" value="DIGITAL_AMP.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/DIGITAL_AMP/" tstamps="/f50c0c11-75cf-4f2a-8c26-7fdc30682fb7/"/>
+      <tstamps>b424c629-7eaf-43bb-b911-945881193bda</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="3"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="IC_ACONTROL1">
+      <value>OPA4191IDR</value>
+      <footprint>footprints:SOIC127P600X175-14N</footprint>
+      <datasheet>https://www.arrow.com/en/products/opa4191idr/texas-instruments</datasheet>
+      <description>Op Amp Quad Precision Amplifier R-R I/O +/-18V/36V 14-Pin SOIC T/R</description>
+      <fields>
+        <field name="Height">1.75</field>
+        <field name="Mouser Part Number">595-OPA4191IDR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA4191IDR?qs=Mv7BduZupUgrrovaPRs2dg%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">OPA4191IDR</field>
+        <field name="Footprint">footprints:SOIC127P600X175-14N</field>
+        <field name="Datasheet">https://www.arrow.com/en/products/opa4191idr/texas-instruments</field>
+        <field name="Description">Op Amp Quad Precision Amplifier R-R I/O +/-18V/36V 14-Pin SOIC T/R</field>
+      </fields>
+      <libsource lib="OPA4191IDR" part="OPA4191IDR" description="Op Amp Quad Precision Amplifier R-R I/O +/-18V/36V 14-Pin SOIC T/R"/>
+      <property name="Height" value="1.75"/>
+      <property name="Mouser Part Number" value="595-OPA4191IDR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA4191IDR?qs=Mv7BduZupUgrrovaPRs2dg%3D%3D"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="OPA4191IDR"/>
+      <property name="Sheetname" value="ANALOG_AMP"/>
+      <property name="Sheetfile" value="ANALOG_AMP.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/ANALOG_AMP/" tstamps="/29a0f05b-dd7c-4501-a84f-080f7bd25a6c/"/>
+      <tstamps>07966466-ff86-4b38-9baa-12180c2b21a9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Rf1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ANALOG_AMP"/>
+      <property name="Sheetfile" value="ANALOG_AMP.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ANALOG_AMP/" tstamps="/29a0f05b-dd7c-4501-a84f-080f7bd25a6c/"/>
+      <tstamps>fe449c95-4ac2-47db-a882-8db31ca2733d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Rg1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1210_3225Metric</footprint>
+      <description>Resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ANALOG_AMP"/>
+      <property name="Sheetfile" value="ANALOG_AMP.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/ANALOG_AMP/" tstamps="/29a0f05b-dd7c-4501-a84f-080f7bd25a6c/"/>
+      <tstamps>1e66bb8c-5054-4cee-8b06-d552c454cb4c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="VR5">
+      <value>3362P-1-104LF</value>
+      <footprint>footprints:TRIM_3362P-1-104LF</footprint>
+      <fields>
+        <field name="MF">Bourns</field>
+        <field name="Description_1">Trimmer, Cermet, Rest 100 Kilohms, PCB, 1 Turns, Pwr-Rtg 0.5 W, Tol 10% | Bourns 3362P-1-104LF</field>
+        <field name="Package">3362P-1 Bourns Inc.</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="PARTREV">08/26/10</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=snap</field>
+        <field name="MP">3362P-1-104LF</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=eda</field>
+        <field name="Footprint">footprints:TRIM_3362P-1-104LF</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="3362P-1-104LF" part="3362P-1-104LF" description=""/>
+      <property name="MF" value="Bourns"/>
+      <property name="Description_1" value="Trimmer, Cermet, Rest 100 Kilohms, PCB, 1 Turns, Pwr-Rtg 0.5 W, Tol 10% | Bourns 3362P-1-104LF"/>
+      <property name="Package" value="3362P-1 Bourns Inc."/>
+      <property name="Price" value="None"/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="PARTREV" value="08/26/10"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=snap"/>
+      <property name="MP" value="3362P-1-104LF"/>
+      <property name="Availability" value="In Stock"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=eda"/>
+      <property name="Sheetname" value="ANALOG_AMP"/>
+      <property name="Sheetfile" value="ANALOG_AMP.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/ANALOG_AMP/" tstamps="/29a0f05b-dd7c-4501-a84f-080f7bd25a6c/"/>
+      <tstamps>752dad5c-456e-44c9-8add-91cc12b4e2c6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="2026-04-08_15-41-58" part="OPA4191ID">
+      <docs>https://www.ti.com/lit/gpn/opa4191</docs>
+      <footprints>
+        <fp>D0014A-IPC_A</fp>
+        <fp>D0014A-IPC_B</fp>
+        <fp>D0014A-IPC_C</fp>
+        <fp>D0014A-MFG</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPA4191ID</field>
+        <field name="Footprint">D0014A-IPC_A</field>
+        <field name="Datasheet">https://www.ti.com/lit/gpn/opa4191</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT_A" type="unspecified"/>
+        <pin num="2" name="-IN_A" type="tri_state"/>
+        <pin num="3" name="+IN_A" type="tri_state"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+IN_B" type="tri_state"/>
+        <pin num="6" name="-IN_B" type="tri_state"/>
+        <pin num="7" name="OUT_B" type="unspecified"/>
+        <pin num="8" name="OUT_C" type="unspecified"/>
+        <pin num="9" name="-IN_C" type="tri_state"/>
+        <pin num="10" name="+IN_C" type="tri_state"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+IN_D" type="tri_state"/>
+        <pin num="13" name="-IN_D" type="tri_state"/>
+        <pin num="14" name="OUT_D" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="218-2LPSTRF" part="218-2LPSTRF">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">218-2LPSTRF</field>
+        <field name="Footprint">218-2LPSTRF:SW_218-2LPSTRF</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">CTS Electrocomponents</field>
+        <field name="Description_1">Dip Switch SPST 2 Position Surface Mount Slide (Standard) Actuator 25mA 24VDC</field>
+        <field name="Package">None</field>
+        <field name="MPN">218-2LPSTRF</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer recommendation</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/218-2LPSTRF/CTS+Components/view-part/?ref=snap</field>
+        <field name="MP">218-2LPSTRF</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/218-2LPSTRF/CTS+Components/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="3362P-1-104LF" part="3362P-1-104LF">
+      <fields>
+        <field name="Reference">VR</field>
+        <field name="Value">3362P-1-104LF</field>
+        <field name="Footprint">3362P-1-104LF:TRIM_3362P-1-104LF</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Bourns</field>
+        <field name="Description_1">Trimmer, Cermet, Rest 100 Kilohms, PCB, 1 Turns, Pwr-Rtg 0.5 W, Tol 10% | Bourns 3362P-1-104LF</field>
+        <field name="Package">3362P-1 Bourns Inc.</field>
+        <field name="Price">None</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="PARTREV">08/26/10</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=snap</field>
+        <field name="MP">3362P-1-104LF</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/3362P-1-104LF/Bourns/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ADS7953" part="ADS7953">
+      <description>ADS7953 series 12 Bit 1M Samples per Second Analog to Digital Converter (ADC) Evaluation Board</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS7953</field>
+        <field name="Footprint">ADS7953:ADS7953</field>
+        <field name="Datasheet"/>
+        <field name="Description">ADS7953 series 12 Bit 1M Samples per Second Analog to Digital Converter (ADC) Evaluation Board</field>
+        <field name="MF">Texas Instruments</field>
+        <field name="Package">VQFN-32 Texas Instruments</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/ADS7953/Texas+Instruments/view-part/?ref=snap</field>
+        <field name="MP">ADS7953</field>
+        <field name="Availability">Not in stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/ADS7953/Texas+Instruments/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPIO2" type="bidirectional"/>
+        <pin num="2" name="GPIO3" type="bidirectional"/>
+        <pin num="3" name="REFM" type="bidirectional"/>
+        <pin num="4" name="REFP" type="bidirectional"/>
+        <pin num="5" name="+VA0" type="bidirectional"/>
+        <pin num="6" name="AGND0" type="bidirectional"/>
+        <pin num="7" name="MXO" type="bidirectional"/>
+        <pin num="8" name="AINP" type="bidirectional"/>
+        <pin num="9" name="AINM" type="bidirectional"/>
+        <pin num="10" name="AGND1" type="bidirectional"/>
+        <pin num="11" name="CH15" type="bidirectional"/>
+        <pin num="12" name="CH14" type="bidirectional"/>
+        <pin num="13" name="CH13" type="bidirectional"/>
+        <pin num="14" name="CH12" type="bidirectional"/>
+        <pin num="15" name="CH11" type="bidirectional"/>
+        <pin num="16" name="CH10" type="bidirectional"/>
+        <pin num="17" name="CH9" type="bidirectional"/>
+        <pin num="18" name="CH8" type="bidirectional"/>
+        <pin num="19" name="AGND2" type="bidirectional"/>
+        <pin num="20" name="AGND3" type="bidirectional"/>
+        <pin num="21" name="CH7" type="bidirectional"/>
+        <pin num="22" name="CH6" type="bidirectional"/>
+        <pin num="23" name="CH5" type="bidirectional"/>
+        <pin num="24" name="CH4" type="bidirectional"/>
+        <pin num="25" name="CH3" type="bidirectional"/>
+        <pin num="26" name="CH2" type="bidirectional"/>
+        <pin num="27" name="CH1" type="bidirectional"/>
+        <pin num="28" name="CH0" type="bidirectional"/>
+        <pin num="29" name="+VA1" type="bidirectional"/>
+        <pin num="30" name="AGND4" type="bidirectional"/>
+        <pin num="31" name="*CS" type="bidirectional"/>
+        <pin num="32" name="SCLK" type="bidirectional"/>
+        <pin num="33" name="SDI" type="bidirectional"/>
+        <pin num="34" name="SDO" type="bidirectional"/>
+        <pin num="35" name="BDGND" type="bidirectional"/>
+        <pin num="36" name="+VBD" type="bidirectional"/>
+        <pin num="37" name="GPIO0" type="bidirectional"/>
+        <pin num="38" name="GPIO1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="C0603C104K5RACTU" part="C0603C104K5RACTU">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C0603C104K5RACTU</field>
+        <field name="Footprint">C0603C104K5RACTU:CAPC1608X90</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">KEMET</field>
+        <field name="Description_1">0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)</field>
+        <field name="Package">603-2 KEMET</field>
+        <field name="Price">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/C0603C104K5RACTU/Kemet/view-part/?ref=eda</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/C0603C104K5RACTU/Kemet/view-part/?ref=snap</field>
+        <field name="MP">C0603C104K5RACTU</field>
+        <field name="Availability">In Stock</field>
+        <field name="MANUFACTURER">KEMET</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CC0402BRNPO9BN4R7" part="CC0402BRNPO9BN4R7">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CC0402BRNPO9BN4R7</field>
+        <field name="Footprint">CC0402BRNPO9BN4R7:CAPC1005X55N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Yageo</field>
+        <field name="Description_1">4.7 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)</field>
+        <field name="Package">0402 Yageo</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/CC0402BRNPO9BN4R7/Yageo/view-part/?ref=snap</field>
+        <field name="MP">CC0402BRNPO9BN4R7</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/CC0402BRNPO9BN4R7/Yageo/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Pin">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x04_Pin">
+      <description>Generic connector, single row, 01x04, script generated</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Pin">
+      <description>Generic connector, single row, 01x05, script generated</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x05, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x12_Pin">
+      <description>Generic connector, single row, 01x12, script generated</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x12_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x12, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KGM32HR72D104KU" part="12102C104KAT2A">
+      <docs>12102C104KAT2A</docs>
+      <footprints>
+        <fp>1210_AVX</fp>
+        <fp>1210_AVX-M</fp>
+        <fp>1210_AVX-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">12102C104KAT2A</field>
+        <field name="Footprint">1210_AVX</field>
+        <field name="Datasheet">12102C104KAT2A</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="unspecified"/>
+        <pin num="2" name="" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="OPA4191IDR" part="OPA4191IDR">
+      <description>Op Amp Quad Precision Amplifier R-R I/O +/-18V/36V 14-Pin SOIC T/R</description>
+      <docs>https://www.arrow.com/en/products/opa4191idr/texas-instruments</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">OPA4191IDR</field>
+        <field name="Footprint">SOIC127P600X175-14N</field>
+        <field name="Datasheet">https://www.arrow.com/en/products/opa4191idr/texas-instruments</field>
+        <field name="Description">Op Amp Quad Precision Amplifier R-R I/O +/-18V/36V 14-Pin SOIC T/R</field>
+        <field name="Height">1.75</field>
+        <field name="Mouser Part Number">595-OPA4191IDR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA4191IDR?qs=Mv7BduZupUgrrovaPRs2dg%3D%3D</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">OPA4191IDR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT_A" type="passive"/>
+        <pin num="2" name="-IN_A" type="passive"/>
+        <pin num="3" name="+IN_A" type="passive"/>
+        <pin num="4" name="V+" type="passive"/>
+        <pin num="5" name="+IN_B" type="passive"/>
+        <pin num="6" name="-IN_B" type="passive"/>
+        <pin num="7" name="OUT_B" type="passive"/>
+        <pin num="8" name="OUT_C" type="passive"/>
+        <pin num="9" name="-IN_C" type="passive"/>
+        <pin num="10" name="+IN_C" type="passive"/>
+        <pin num="11" name="V-" type="passive"/>
+        <pin num="12" name="+IN_D" type="passive"/>
+        <pin num="13" name="-IN_D" type="passive"/>
+        <pin num="14" name="OUT_D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PGA103U" part="PGA103U">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PGA103U</field>
+        <field name="Footprint">PGA103U:SOIC127P599X175-8N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Texas Instruments</field>
+        <field name="Description_1">Programmable Gain Amplifier</field>
+        <field name="Package">SOIC-8 Texas Instruments</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/PGA103U/Texas+Instruments/view-part/?ref=snap</field>
+        <field name="MP">PGA103U</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/PGA103U/Texas+Instruments/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="GROUND" type="bidirectional"/>
+        <pin num="4" name="VIN" type="input"/>
+        <pin num="6" name="V-" type="power_in"/>
+        <pin num="7" name="VO" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="RMCF1210JT10K0" part="RMCF1210JT10K0">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RMCF1210JT10K0</field>
+        <field name="Footprint">RMCF1210JT10K0:RESC3225X70N</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Stackpole Electronics Inc</field>
+        <field name="Description_1">10 kOhms ±5% 0.333W, 1/3W Chip Resistor 1210 (3225 Metric) Automotive AEC-Q200 Thick Film</field>
+        <field name="Package">3225 Stackpole</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/RMCF1210JT10K0/Stackpole+Electronics/view-part/?ref=snap</field>
+        <field name="MP">RMCF1210JT10K0</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/RMCF1210JT10K0/Stackpole+Electronics/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="VEMD4110X01" part="VEMD4110X01">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">VEMD4110X01</field>
+        <field name="Footprint">VEMD4110X01:DIO_VEMD4110X01</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="MF">Vishay</field>
+        <field name="Description_1">High speed and high sensitive PIN photodiode.  Miniature surface mount device (SMD) with a 0.42 mm2 sensitive area and daylight blocking filter.</field>
+        <field name="Package">None</field>
+        <field name="Price">None</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/VEMD4110X01/Vishay/view-part/?ref=snap</field>
+        <field name="MP">VEMD4110X01</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=4653216&amp;manufacturer=Vishay&amp;part_name=VEMD4110X01&amp;search_term=None</field>
+        <field name="Availability">In Stock</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/VEMD4110X01/Vishay/view-part/?ref=eda</field>
+      </fields>
+      <pins>
+        <pin num="A" name="" type="passive"/>
+        <pin num="C" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="218-2LPSTRF">
+      <uri>C:/Users/javie/Documents/KiCad/9.0/symbols/218-2LPSTRF.kicad_sym</uri>
+    </library>
+    <library logical="3362P-1-104LF">
+      <uri>C:/Users/javie/Documents/KiCad/9.0/symbols/3362P-1-104LF.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="OPA4191IDR">
+      <uri>C:/Users/javie/Documents/KiCad/9.0/symbols/OPA4191IDR.kicad_sym</uri>
+    </library>
+    <library logical="PGA103U">
+      <uri>C:/Users/javie/Documents/KiCad/9.0/symbols/PGA103U.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V" class="Default">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U3" pin="36" pinfunction="+VBD_36" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="+5V" class="Default">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U3" pin="29" pinfunction="+VA1_29" pintype="bidirectional"/>
+      <node ref="U3" pin="5" pinfunction="+VA0_5" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/ADC_AINM" class="Default">
+      <node ref="J12" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="AINM_9" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/ADC_AINP" class="Default">
+      <node ref="J12" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="AINP_8" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/ADC_MXO" class="Default">
+      <node ref="J12" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="MXO_7" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/ADS_MUX_MODULE/ADC_CS" class="Default">
+      <node ref="J13" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U3" pin="31" pinfunction="*CS_31" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/ADS_MUX_MODULE/ADC_GPI00" class="Default">
+      <node ref="J13" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="U3" pin="37" pinfunction="GPIO0_37" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/ADS_MUX_MODULE/ADC_GPI01" class="Default">
+      <node ref="J13" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="U3" pin="38" pinfunction="GPIO1_38" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/ADS_MUX_MODULE/ADC_GPI02" class="Default">
+      <node ref="J13" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="GPIO2_1" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/ADS_MUX_MODULE/ADC_GPI03" class="Default">
+      <node ref="J13" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="GPIO3_2" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/ADS_MUX_MODULE/ADC_MISO" class="Default">
+      <node ref="J13" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U3" pin="34" pinfunction="SDO_34" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="/ADS_MUX_MODULE/ADC_MOSI" class="Default">
+      <node ref="J13" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U3" pin="33" pinfunction="SDI_33" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/ADS_MUX_MODULE/ADC_SCLK" class="Default">
+      <node ref="J13" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U3" pin="32" pinfunction="SCLK_32" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/ADS_MUX_MODULE/AIN0" class="Default">
+      <node ref="J5" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U3" pin="28" pinfunction="CH0_28" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/ADS_MUX_MODULE/AIN1" class="Default">
+      <node ref="J5" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U3" pin="27" pinfunction="CH1_27" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/ADS_MUX_MODULE/AIN2" class="Default">
+      <node ref="J5" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U3" pin="26" pinfunction="CH2_26" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/ADS_MUX_MODULE/AIN3" class="Default">
+      <node ref="J5" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U3" pin="25" pinfunction="CH3_25" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/ADS_MUX_MODULE/AIN4" class="Default">
+      <node ref="J5" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="U3" pin="24" pinfunction="CH4_24" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/ADS_MUX_MODULE/AIN5" class="Default">
+      <node ref="J5" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="U3" pin="23" pinfunction="CH5_23" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/ADS_MUX_MODULE/AIN6" class="Default">
+      <node ref="J5" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="U3" pin="22" pinfunction="CH6_22" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/ADS_MUX_MODULE/AIN7" class="Default">
+      <node ref="J5" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="U3" pin="21" pinfunction="CH7_21" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="/ADS_MUX_MODULE/AIN8" class="Default">
+      <node ref="J6" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U3" pin="18" pinfunction="CH8_18" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/ADS_MUX_MODULE/AIN9" class="Default">
+      <node ref="J6" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="CH9_17" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/ADS_MUX_MODULE/AIN10" class="Default">
+      <node ref="J6" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="CH10_16" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/ADS_MUX_MODULE/AIN11" class="Default">
+      <node ref="J6" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="CH11_15" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/ADS_MUX_MODULE/AIN12" class="Default">
+      <node ref="J6" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="CH12_14" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/ADS_MUX_MODULE/AIN13" class="Default">
+      <node ref="J6" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="CH13_13" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/ADS_MUX_MODULE/AIN14" class="Default">
+      <node ref="J6" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="CH14_12" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/ADS_MUX_MODULE/AIN15" class="Default">
+      <node ref="J6" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="CH15_11" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/AGND" class="Default">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="AGND1_10" pintype="bidirectional"/>
+      <node ref="U3" pin="19" pinfunction="AGND2_19" pintype="bidirectional"/>
+      <node ref="U3" pin="20" pinfunction="AGND3_20" pintype="bidirectional"/>
+      <node ref="U3" pin="30" pinfunction="AGND4_30" pintype="bidirectional"/>
+      <node ref="U3" pin="6" pinfunction="AGND0_6" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/AINP_OUT_AAMP" class="Default">
+      <node ref="IC_ACONTROL1" pin="1" pinfunction="OUT_A_1" pintype="passive"/>
+      <node ref="J10" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="VR5" pin="2" pintype="passive"/>
+      <node ref="VR5" pin="3" pintype="passive"/>
+    </net>
+    <net code="32" name="/AINP_OUT_DAMP" class="Default">
+      <node ref="J9" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="VO_7" pintype="output"/>
+    </net>
+    <net code="33" name="/DGND" class="Default">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U3" pin="35" pinfunction="BDGND_35" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/MXO_IN_AAMP" class="Default">
+      <node ref="IC_ACONTROL1" pin="3" pinfunction="+IN_A_3" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+    </net>
+    <net code="35" name="/MXO_IN_DAMP" class="Default">
+      <node ref="J9" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="VIN_4" pintype="input"/>
+    </net>
+    <net code="36" name="/VCC_AAMP" class="Default">
+      <node ref="IC_ACONTROL1" pin="4" pinfunction="V+_4" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+    </net>
+    <net code="37" name="/VCC_DAMP" class="Default">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="RP1" pin="2" pintype="passive"/>
+      <node ref="RP2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="V+_8" pintype="power_in"/>
+    </net>
+    <net code="38" name="/VCC_PD" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="V-_11" pintype="power_in"/>
+    </net>
+    <net code="39" name="/VDD_AAMP" class="Default">
+      <node ref="IC_ACONTROL1" pin="11" pinfunction="V-_11" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+    </net>
+    <net code="40" name="/VDD_DAMP" class="Default">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="V-_6" pintype="power_in"/>
+    </net>
+    <net code="41" name="/VDD_PD" class="Default">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V+_4" pintype="power_in"/>
+    </net>
+    <net code="42" name="/VOUT­_1_PD" class="Default">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J8" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="OUT_A_1" pintype="unspecified"/>
+      <node ref="VR1" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="/VOUT­_2_PD" class="Default">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J8" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="OUT_B_7" pintype="unspecified"/>
+      <node ref="VR2" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="/VOUT­_3_PD" class="Default">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J8" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="OUT_C_8" pintype="unspecified"/>
+      <node ref="VR3" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="/VOUT­_4_PD" class="Default">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="J8" pin="11" pinfunction="Pin_11_11" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="OUT_D_14" pintype="unspecified"/>
+      <node ref="VR4" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="/V_REF1_PD" class="Default">
+      <node ref="C3" pin="2" pintype="unspecified"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="+IN_A_3" pintype="tri_state"/>
+    </net>
+    <net code="47" name="/V_REF2_PD" class="Default">
+      <node ref="C5" pin="2" pintype="unspecified"/>
+      <node ref="J8" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="+IN_B_5" pintype="tri_state"/>
+    </net>
+    <net code="48" name="/V_REF3_PD" class="Default">
+      <node ref="C9" pin="2" pintype="unspecified"/>
+      <node ref="J8" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="+IN_C_10" pintype="tri_state"/>
+    </net>
+    <net code="49" name="/V_REF4_PD" class="Default">
+      <node ref="C13" pin="2" pintype="unspecified"/>
+      <node ref="J8" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="+IN_D_12" pintype="tri_state"/>
+    </net>
+    <net code="50" name="GND_AAMP" class="Default">
+      <node ref="IC_ACONTROL1" pin="10" pinfunction="+IN_C_10" pintype="passive"/>
+      <node ref="IC_ACONTROL1" pin="12" pinfunction="+IN_D_12" pintype="passive"/>
+      <node ref="IC_ACONTROL1" pin="5" pinfunction="+IN_B_5" pintype="passive"/>
+      <node ref="J10" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="Rg1" pin="1" pintype="passive"/>
+    </net>
+    <net code="51" name="GND_DAMP" class="Default">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="GROUND_3" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="GND_PD" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="unspecified"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="unspecified"/>
+      <node ref="C5" pin="1" pintype="unspecified"/>
+      <node ref="C9" pin="1" pintype="unspecified"/>
+      <node ref="D1" pin="A" pintype="passive"/>
+      <node ref="D2" pin="A" pintype="passive"/>
+      <node ref="D3" pin="A" pintype="passive"/>
+      <node ref="D4" pin="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="J8" pin="12" pinfunction="Pin_12_12" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(IC_ACONTROL1--IN_A)" class="Default">
+      <node ref="IC_ACONTROL1" pin="2" pinfunction="-IN_A_2" pintype="passive"/>
+      <node ref="Rf1" pin="2" pintype="passive"/>
+      <node ref="Rg1" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(IC_ACONTROL1--IN_B)" class="Default">
+      <node ref="IC_ACONTROL1" pin="6" pinfunction="-IN_B_6" pintype="passive"/>
+      <node ref="IC_ACONTROL1" pin="7" pinfunction="OUT_B_7" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(IC_ACONTROL1--IN_C)" class="Default">
+      <node ref="IC_ACONTROL1" pin="8" pinfunction="OUT_C_8" pintype="passive"/>
+      <node ref="IC_ACONTROL1" pin="9" pinfunction="-IN_C_9" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(IC_ACONTROL1--IN_D)" class="Default">
+      <node ref="IC_ACONTROL1" pin="13" pinfunction="-IN_D_13" pintype="passive"/>
+      <node ref="IC_ACONTROL1" pin="14" pinfunction="OUT_D_14" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(R1-Pad2)" class="Default">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="VR1" pin="1" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(R2-Pad2)" class="Default">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="VR2" pin="1" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(R3-Pad2)" class="Default">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="VR3" pin="1" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(R4-Pad2)" class="Default">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="VR4" pin="1" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(Rf1-Pad1)" class="Default">
+      <node ref="Rf1" pin="1" pintype="passive"/>
+      <node ref="VR5" pin="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(U1A--IN_A)" class="Default">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D1" pin="C" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-IN_A_2" pintype="tri_state"/>
+    </net>
+    <net code="63" name="Net-(U1B--IN_B)" class="Default">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="D2" pin="C" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="-IN_B_6" pintype="tri_state"/>
+    </net>
+    <net code="64" name="Net-(U1C--IN_C)" class="Default">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="D3" pin="C" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="-IN_C_9" pintype="tri_state"/>
+    </net>
+    <net code="65" name="Net-(U1D--IN_D)" class="Default">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="D4" pin="C" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="-IN_D_13" pintype="tri_state"/>
+    </net>
+    <net code="66" name="Net-(U2-A0)" class="Default">
+      <node ref="RP1" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="4" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="A0_1" pintype="input"/>
+    </net>
+    <net code="67" name="Net-(U2-A1)" class="Default">
+      <node ref="RP2" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="A1_2" pintype="input"/>
+    </net>
+    <net code="68" name="Net-(U3-REFM)" class="Default">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="REFM_3" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="Net-(U3-REFP)" class="Default">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="REFP_4" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="unconnected-(VR1-Pad3)" class="Default">
+      <node ref="VR1" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(VR2-Pad3)" class="Default">
+      <node ref="VR2" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(VR3-Pad3)" class="Default">
+      <node ref="VR3" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(VR4-Pad3)" class="Default">
+      <node ref="VR4" pin="3" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
